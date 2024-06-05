@@ -1,4 +1,4 @@
-pipeline {    
+epipeline {    
     agent any 
     tools {
         jdk 'jdk17'
@@ -6,7 +6,7 @@ pipeline {
     }
 
     stages {   
-        stage('Compile') {
+        stage('Compilee') {
             steps {
                 sh 'mvn compile'
             }
