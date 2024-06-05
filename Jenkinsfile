@@ -1,4 +1,4 @@
-epipeline {    
+pepipeline {    
     agent any 
     tools {
         jdk 'jdk17'
