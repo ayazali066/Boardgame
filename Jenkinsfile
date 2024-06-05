@@ -6,7 +6,7 @@ epipeline {
     }
 
     stages {   
-        stage('Compilee') {
+        stage('Compile') {
             steps {
                 sh 'mvn compile'
             }
