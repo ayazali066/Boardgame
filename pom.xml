@@ -115,7 +115,18 @@
 </plugin>
 		</plugins>
 	</build>
-
+         <distributionManagement>
+  <repository>
+    <id>maven-releases</id>
+    <!-- CHANGE HERE by your team Nexus server -->
+    <url>http://34.239.107.40:8081/repository/maven-releases/</url>
+  </repository>
+  <snapshotRepository>
+    <id>maven-snapshots</id>
+    <!-- CHANGE HERE by your team Nexus server -->
+    <url>http://34.239.107.40:8081/repository/maven-snapshots/</url>
+  </snapshotRepository>
+</distributionManagement>
 	
 
 </project>
